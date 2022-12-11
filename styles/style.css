@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a22f4;
+    font-family: 'Mkedruli';
+}
+
+.left_section { 
+    display: inline-block;
+    margin-left: 160px;
+}
+
+.text_wrapper {
+    margin-top: 162px;
+}
+
+.text_title {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.text {
+    width: 350px;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.mapouter {
+    margin-top: 40px;
+    position: relative;
+    text-align: right;
+    width: 463px;
+    height: 197px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 463px;
+    height: 197px;
+}
+
+.gmap_iframe {
+    width: 463px !important;
+    height: 197px !important;;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.light {
+    margin-top: -210px;
+    margin-left: -150px;
+    width: 240px;
+    height: 347px;
+    background: transparent linear-gradient(239deg, #FFFFFF 0%, #0A22F4 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.1;
+    transform: rotate(239deg);
+}
+
+
+.contact_wrapper {
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.phone_box {
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.phone_icon {
+    margin-top: 10px;
+}
+
+.email_box {
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.email_icon {
+    margin-top: 12px;
+}
+
+.contact_section {
+    display: inline-block;
+}
+
+.contact_section p {
+    display: inline-block;
+    margin: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.right_section {
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 200px;
+}
+
+.form_box form {
+    margin-left: 150px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    height: 35px;
+    width: 400px;
+    margin: 20px;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+
+input::placeholder {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 300px;
+    width: 115px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
