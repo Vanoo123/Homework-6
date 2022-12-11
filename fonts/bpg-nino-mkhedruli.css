@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Mkedruli';
+    src: url('../fonts/bpg-nino-mkhedruli-webfont.woff2') format('woff2'),
+        url('../fonts/bpg-nino-mkhedruli-webfont.ttf') format('truetype');
+
+}
